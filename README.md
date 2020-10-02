@@ -1,2 +1,3 @@
-# python-checkio
+# Задачи с py.checkio.org
+
 Мои собственные решения задач с сайта https://py.checkio.org/ и оптимизация кода в решениях
