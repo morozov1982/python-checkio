@@ -48,6 +48,7 @@ The message will consists of numbers and English letters only.
 
 '''
 
+from re import sub
 
 MORSE = {'.-':    'a', '-...':  'b', '-.-.':  'c',
          '-..':   'd', '.':     'e', '..-.':  'f',
@@ -62,6 +63,11 @@ MORSE = {'.-':    'a', '-...':  'b', '-.-.':  'c',
          '....-': '4', '.....': '5', '-....': '6',
          '--...': '7', '---..': '8', '----.': '9'
          }
+
+
+# Не удержался, регулярочки ;-) работает медленнее, чем morse_decoder()
+def morse_decoder_1(code):
+    return sub(r'[-|.]+', lambda l: MORSE.get(l.group(0)), code + '\n')[::2].capitalize()
 
 
 # Решение в одну строку, как я люблю ;-)
