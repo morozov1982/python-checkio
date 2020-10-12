@@ -50,11 +50,12 @@ It's being taught for Ryerson Chang School of Continuing Education by Ilkka Kokk
 
 
 def frequency_sort(items):
-	idx_sort = sorted(items, key=lambda x: items.index(x))
-    res = sorted(idx_sort, key=lambda x: items.count(x), reverse = True)
+    idx_sort = sorted(items, key=lambda x: items.index(x))
+    res = sorted(idx_sort, key=lambda x: items.count(x), reverse=True)
     return res
 
     # return sorted(items, key=lambda x: (items.count(x), -items.index(x)), reverse=True)  # I like it (не мой но прекрасный вариант)
+
 
 if __name__ == '__main__':
     print("Example:")
