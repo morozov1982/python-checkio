@@ -4,7 +4,7 @@
 ***(EN)***
 
 You are given a list of files. You need to sort this list by the file extension.
-The files with the same extension should be sorted by name.
+The files with the same extension should be sort by name.
 
 Some possible cases:
 

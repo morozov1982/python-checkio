@@ -54,7 +54,7 @@ def frequency_sort(items):
     res = sorted(idx_sort, key=lambda x: items.count(x), reverse=True)
     return res
 
-    # return sorted(items, key=lambda x: (items.count(x), -items.index(x)), reverse=True)  # I like it (не мой но прекрасный вариант)
+    # return sort(items, key=lambda x: (items.count(x), -items.index(x)), reverse=True)  # I like it (не мой но прекрасный вариант)
 
 
 if __name__ == '__main__':

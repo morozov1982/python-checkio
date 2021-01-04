@@ -1,4 +1,4 @@
-'''
+"""
 ***** Morse Decoder *** (Elementary+) *****
 
 ***(EN)***
@@ -46,7 +46,7 @@ The message will consists of numbers and English letters only.
 0 < len(message) < 100
 Текст будет состоять только из цифр и букв английского алфавита.
 
-'''
+"""
 
 from re import sub
 
